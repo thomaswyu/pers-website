@@ -1,0 +1,15 @@
+<!-- does nothing except create the eclipse project -->
+<project name="pers-website" default="eclipse" basedir=".">
+  
+  <target name="eclipse">
+  <taskdef name="eclipse" classname="prantl.ant.eclipse.EclipseTask" />
+    <eclipse>
+      <project />
+      <classpath>
+        <source path="src" />
+        <output path="bin" />
+      </classpath>
+    </eclipse>
+  </target>
+
+  </project>
