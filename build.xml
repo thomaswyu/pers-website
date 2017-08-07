@@ -6,7 +6,7 @@
     <eclipse>
       <project />
       <classpath>
-        <source path="src" />
+        <source path="src/main/java" />
         <output path="bin" />
       </classpath>
     </eclipse>
